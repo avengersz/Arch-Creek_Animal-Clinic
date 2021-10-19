@@ -11,7 +11,7 @@ Technologies used in this Project mentioned below:
 2. CSS3
 3. JS
 4. React JS
-5. Netlify
+5. React Hook Form
 6. VS Code
 7.Firebase Authentication
 ```

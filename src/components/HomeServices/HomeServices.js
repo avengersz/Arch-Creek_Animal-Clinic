@@ -1,6 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button, Card, Col, ListGroup, ListGroupItem } from 'react-bootstrap';
+import { Card, Col, ListGroup, ListGroupItem } from 'react-bootstrap';
 const HomeServices = (props) => {
     const {name, image, Cost, description} = props.service;
     
