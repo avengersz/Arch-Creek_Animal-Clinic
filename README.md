@@ -19,9 +19,9 @@ Technologies used in this Project mentioned below:
 ## Features
 
 ```
-1. you can see online course.
-2. you can learn web design & development.
-3. you will be learn new features.
+1. you can see pet doctors.
+2. you can make your pet healthy.
+3. you can owned pet features.
 ```
 
 ## Live Site Link
