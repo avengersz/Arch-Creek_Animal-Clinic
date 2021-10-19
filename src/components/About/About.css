@@ -1,0 +1,22 @@
+.about-img{
+ 
+}
+.small-h{
+    font-size: small;
+    font-weight: 400;
+}
+.margin{
+    /* margin-left: 25px; */
+    margin: 40px;
+}
+.img-bg{
+    
+}
+.btn-grp{
+    background-color: rgb(109, 18, 228);
+    color: white;
+    padding: 10px;
+    
+    border-radius: 15px;
+    
+}

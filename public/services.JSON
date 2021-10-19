@@ -1,0 +1,52 @@
+[
+    {
+    "id": 1,
+    "name": "Pet Checkup",
+    "description": "Your dog can't tell you in words that his teeth hurt, nor can your cat confide that her leg doesn't feel right. Fortunately, information like that—and much more—can be determined during a pet's physical exam.When you consider that our pets age at approximately six to seven times the rate that we do, it's easy to see that yearly veterinary exams are important not only for vaccinations and vital statistics but also to notice any early signs of disease or other problems,states the University of Illinois College of Veterinary Medicine Web site.",
+   "Cost": 200,
+ "image": "https://i.ibb.co/kKqG7wr/Vet-clinic-concept-Happy-male-doctor-veterinarian-holding-cute-black-pug-dog-smiling-at-camera-white.jpg"
+},
+
+{
+    "id": 2,
+    "name": "Vaccination",
+    "Cost": 142,
+    "description": "All our practices offer routine vaccinations as part of their standard service and recommend cats, dogs and rabbits are protected against these diseases at an annual appointment.",
+    "image": "https://i.ibb.co/TTzWmMs/Veterinarian-in-latex-loves-dong-injection-for-dog-vet-holds-syringe-in-hands-dog-lying-on-table-pup.jpg"
+},
+
+{
+    "id": 3,
+    "name": "Grooming",
+    "Cost": 700,
+     "description": "Cat grooming training might be the perfect career move if you love dogs and have a creative flair.",
+    "image": "https://i.ibb.co/XkJGfGb/Vet-with-a-brush-for-animals-Woman-in-a-black-T-shirt-Cat-on-a-couch.jpg"
+    
+},
+{
+    "id": 4,
+    "name": "Surgery",
+    "Cost": 400,
+    "description": "Pets will generally need some anesthesia before a surgical procedure,so it’s good for you to be prepared.",
+    "image": "https://i.ibb.co/C5nNSZF/500-F-204826387-u-MN7hr-CSQicowos-ZJMVi-DUk-Nb-Mh-JPWd9.jpg"
+    
+},
+{
+    "id": 5,
+    "name": "Combing",
+    "Cost": 800,
+    "description": "If your cat is not used to regular grooming sessions, then she may not react so positively when you first try to brush her. Never try to force your cat to be brushed if she resists. If immediate grooming is vital, make an appointment with a professional groomer or veterinarian to evaluate the situation and perform it properly.",
+    "image": "https://i.ibb.co/LJVd0cG/female-combing-favorite-cat-floor.jpg"
+    
+},
+{
+    "id": 6,
+    "name": "Pet Food",
+    
+    "Cost": 50,
+    "description": "Pet Food Packed w/ Nutrients to Help Your Pet Be Its Absolute Best. Try Pro Plan Today. Pro Plan Strives to Help Your Pet Maintain an Ideal Body Condition at Every Stage of Life.",
+    
+    "image": "https://i.ibb.co/FKBTmcd/pet-accessories-still-life-concept-with-chew-ball.jpg"
+    
+}
+]

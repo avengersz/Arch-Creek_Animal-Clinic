@@ -1,0 +1,45 @@
+[
+    {
+        "name": "Dr. Albert F. Williams",
+        "title": "PET GROOMER",
+        "about": "Dr. Albert Williams grew up on a farm in Lake City, Florida, where he was surrounded by everything from dogs and cats to cattle, horses, pigs, and chickens.",
+        "email": "albert@gmail.com",
+        "image": "https://i.ibb.co/smbHTyw/albert-1200w.webp"
+    },
+    {
+        "name": "Dr. Carina",
+        "title": "CAT GROOMER",
+        "about": "Dr. Corina Walton was a little girl, she would constantly tell her father that she wanted to become a dog when she got older. ",
+        "email": "corina@gmail.com",
+        "image": "https://i.ibb.co/hCQhPnw/corina-e1598284703781-576w.jpg"
+    },
+    {
+        "name": "Elizabeth",
+        "title": "DOG GROOMER",
+        "about": "Throughout her childhood, Elizabeth’s family always kept at least one cat. Those early experiences with her pets left a permanent impression on her. ",
+        "email": "elizabeth@gmail.com",
+        "image": "https://i.ibb.co/kKH1VRf/Elizabeth-576w.jpg"
+    },
+    {
+        "name": "Katrina Gomez",
+        "title": "RABBIT GROOMER",
+        "about": "Alberta is sed in ribeye nisi cillum. Ad leberkas labore cow, incididunt deserunt cillum aute elit.",
+        "email": "albertarogers@gmail.com",
+        "image": "https://i.ibb.co/m4Z7rx3/Katrina-Gomez-8ffd7cd3-576w.png"
+    },
+    {
+        "name": "Brittany",
+        "title": "CAT GROOMER",
+        "about": "Brittany’s mother used to work as a Veterinary Technician, ",
+        "email": "bernardlabmrt@gmail.com",
+        "image": "https://i.ibb.co/vmMcRVv/brittany-576w.jpg"
+    },
+    {
+        "name": "Amber",
+        "title": "RABBIT GROOMER",
+        "about": "Amber has, in many ways, grown up smack dab in the middle of the veterinary field.",
+        "email": "frankstep@gmail.com",
+        "image": "https://i.ibb.co/SsxSN2k/amber1-576w.jpg"
+    }
+ 
+]
