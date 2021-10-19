@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Button } from 'react-bootstrap';
+
 const Register = () => {
     return (
         <div>
@@ -13,9 +13,7 @@ const Register = () => {
                 <br/>
                 <input type="password" name="" id="" placeholder="Re-enter Password"/>
                 <br/>
-                <Button variant="primary" type="submit">
-                    Submit
-                </Button>
+                <input className="mt-3 bg-primary rounded" type="submit"value="submit"/>
                 </form>
 
                 <p>Already have an Account?<Link to="/login">Login</Link></p>

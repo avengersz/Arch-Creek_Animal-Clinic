@@ -24,7 +24,7 @@ const useFirebase = () => {
               setUser(user);
             }
         });
-    },[])
+    },[auth])
 
     return{
         user,

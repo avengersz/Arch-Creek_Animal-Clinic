@@ -24,7 +24,7 @@ const Home = () => {
     />
     <Carousel.Caption>
       <h3>First slide label</h3>
-      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      <p>A dog is one of the helpful animals that consist of a fluffy hairy body. Dogs help in protecting a house from thieves and fraud people during the night.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -36,7 +36,7 @@ const Home = () => {
 
     <Carousel.Caption>
       <h3>Second slide label</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p>One of the most faithful and helpful animals on the earth is a dog. Dogs consist of four feet for running and jumping. They have two eyes, ears, and one tail, which makes them look beautiful.</p>
     </Carousel.Caption>
   </Carousel.Item>
   <Carousel.Item>
@@ -48,7 +48,7 @@ const Home = () => {
 
     <Carousel.Caption>
       <h3>Third slide label</h3>
-      <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+      <p>A cat is a beautiful creature on the earth that consists of four legs and sharp teeth.</p>
     </Carousel.Caption>
   </Carousel.Item>
 </Carousel>
