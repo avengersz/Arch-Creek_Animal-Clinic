@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router-dom';
 import "./Header.css"
 import Photo  from '../images/archcreek1.jpg';
-import { Container, Nav, Navbar } from 'react-bootstrap';
+import { Container, Nav, Navbar,Button } from 'react-bootstrap';
 import useAuth from '../../hooks/useAuth';
 
 
@@ -21,14 +21,27 @@ const Header = () => {
     <Nav.Link className="text-light" as={Link} to="/services">Services</Nav.Link>
     <Nav.Link className="text-light" as={Link} to="/vets">Vets</Nav.Link>
     <Nav.Link className="text-light" as={Link} to="/contact">Contact</Nav.Link>
-      {
-          user.email &&  <span style={{color:'white'}}>{user.displayName}</span>
-      }
-      {
-          user.email ?
-          <button onClick={logOut}>Logout</button>:
-        <Nav.Link className="text-light"  as={Link} to="/login">Login</Nav.Link>
-      }
+    <div className="logIn-logOut">
+                    {
+                        user?.email ?
+                            <Button onClick={logOut} className="logout" variant="outline-primary">Logout</Button>
+                            :
+                            <Nav.Link as={Link} to="/login">
+                                <Button className="login" variant="outline-primary">Login</Button>
+                            </Nav.Link>
+                    }
+
+                    <Nav.Link as={Link} to="/register">
+                        <Button className="register" variant="outline-primary">Register</Button>
+
+                    </Nav.Link>
+
+                </div>
+                <div> <Navbar.Text>
+                        Signed in as: <a href="#login">{user?.displayName}</a>
+                    </Navbar.Text>
+                </div>
+     
         </Navbar.Collapse>
     </Container>
   </Navbar>
