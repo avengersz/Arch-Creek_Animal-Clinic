@@ -4,6 +4,10 @@
     padding: 20px;
     
 }
+.login-container{
+   
+    display: flex;
+}
 
 .inactive {
     text-decoration: none;
@@ -33,4 +37,11 @@
     font-size: 20px;
     margin-top: 10px;
 
+}
+.logIn-logOut{
+    display: flex;
+    
+}
+.displayName{
+    margin-right: 80px;
 }

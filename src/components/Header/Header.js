@@ -10,7 +10,7 @@ const Header = () => {
 
     const {user, logOut} = useAuth();
     return (
-<Navbar header={Header} bg="dark" variant="" sticky="top" collapseOnSelect expand="lg">
+<Navbar className="header" bg="dark" variant="" sticky="top" collapseOnSelect expand="lg">
     <Container>
       <img className="img-part" src={Photo} alt="" />
     <Navbar.Brand href="#home">Arch Creek Animal Clinic</Navbar.Brand>
@@ -21,6 +21,13 @@ const Header = () => {
     <Nav.Link className="text-light" as={Link} to="/services">Services</Nav.Link>
     <Nav.Link className="text-light" as={Link} to="/vets">Vets</Nav.Link>
     <Nav.Link className="text-light" as={Link} to="/contact">Contact</Nav.Link>
+        </Navbar.Collapse>
+    </Container>
+    <div className="login-container">
+    <div className="displayName"> <Navbar.Text>
+                        Signed in as: <a href="#login">{user?.displayName}</a>
+                    </Navbar.Text>
+                </div>
     <div className="logIn-logOut">
                     {
                         user?.email ?
@@ -37,13 +44,9 @@ const Header = () => {
                     </Nav.Link>
 
                 </div>
-                <div> <Navbar.Text>
-                        Signed in as: <a href="#login">{user?.displayName}</a>
-                    </Navbar.Text>
-                </div>
-     
-        </Navbar.Collapse>
-    </Container>
+                
+    </div>
+    
   </Navbar>
     );
 };
